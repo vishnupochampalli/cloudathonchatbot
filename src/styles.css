@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* FAQ */
+  .faq-container {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  .faq-container ul {
+    list-style-type: none;
+  }
+  
+  .faq-container a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Chatbot */
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
+    bottom: 16px;
+    right: 16px;
+  }
+  
+  .incident-section {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  .incident-section h2 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .incident-section p {
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .incident-link {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .incident-link:hover {
+    background: #0056b3;
+  }
+  
